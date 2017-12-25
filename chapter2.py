@@ -67,8 +67,35 @@ while True:
 
 # exise
 # 1. True, False
-# 2. 
-
+# 2. and or not
+# 3. 省略，太多了，不写了， 记住是短路径判断
+# 4. False False True False False True
+# 5. > == < >= <= !=
+# 6. == =
+# 7. while 和 for
+# 8. if if else
+# 9.
+    spam = 1
+    if spam == 1:
+        print('Hello')
+    elif spam == 2:
+        print('Howdy')
+    else:
+        print('Greetings!')
+# 10. ctrl + c
+# 11. break是跳出循环，continue是流程跳至代码块的头部重新执行
+# 12，没区别
+# 13.
+    # for
+    for i in range(1, 10):
+        print(i)
+    # while
+    n = 1
+    while n < 10:
+        print(n)
+        n += 1
+# 14. import bacon
+# 15. round()是对浮点数取四舍五入的值， abs()是对参数取绝对值
 
 
 
