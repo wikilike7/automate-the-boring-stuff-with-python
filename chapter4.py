@@ -39,3 +39,10 @@ message = ['It is certain',
 
 for i in message:
     print(i)
+
+while True:
+    s = input('Enter something: ')
+    if s == 'quit':
+        break
+    print('String length: ', len(s))
+print('Done')
