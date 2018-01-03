@@ -37,12 +37,21 @@ message = ['It is certain',
 # print(message[random.randint(0, len(message) - 1)])
 
 
-for i in message:
-    print(i)
+# for i in message:
+#     print(i)
+#
+# while True:
+#     s = input('Enter something: ')
+#     if s == 'quit':
+#         break
+#     print('String length: ', len(s))
+# print('Done')
 
-while True:
-    s = input('Enter something: ')
-    if s == 'quit':
-        break
-    print('String length: ', len(s))
-print('Done')
+
+student_name = "iteration"
+count = 0
+for letter in student_name:
+    if letter.lower() == 't':
+        print(count)
+    count += 1
+
