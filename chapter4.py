@@ -50,8 +50,14 @@ message = ['It is certain',
 
 student_name = "iteration"
 count = 0
-for letter in student_name:
-    if letter.lower() == 't':
+for i in student_name:
+    if i == 't':
         print(count)
     count += 1
+
+
+spam = ['hello', 'hi', 'howdy', 'heyas', 1, 2]
+spam.index('hello')
+spam.index('heyas')
+spam.reverse()
 
